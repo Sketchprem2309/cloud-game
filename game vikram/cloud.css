@@ -1,0 +1,43 @@
+* .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.235);
+}
+.nav-text{
+    color: #ee00ff;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color:#fff !important;
+}
+nav a:hover{
+    color: #ffffff !important;
+}
+nav ul li a:visited{
+    color: #ff00c3;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
